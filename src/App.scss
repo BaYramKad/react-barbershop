@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'inter', sans-serif;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  .logo {
+    display: flex;
+    flex-basis: 40%;
+    h1, p {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 26px;
+    transition: background 0.4s ease-in-out;
+    border-radius: 7px;
+    &:hover {
+      background: #3B534D;
+      transition: background 0.2s ease-in-out;
+    }
+  }
+}
+
